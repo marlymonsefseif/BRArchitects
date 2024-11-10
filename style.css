@@ -1,0 +1,219 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.title {
+    margin-left: 3%;
+    font-size: x-large;
+}
+
+hr {
+    margin-left: 3%;
+    color: rgba(128, 128, 128, 0.414);
+    width: 95%;
+}
+
+div#navbar {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    z-index: 1;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    color: black;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 10px 25px;
+    text-align: center;
+    font-size: large;
+}
+
+a:hover {
+    background-color: rgba(128, 128, 128, 0.377);
+}
+
+div#title {
+    position: relative;
+    color: white;
+    text-align: center;
+    font-size: 45px;
+}
+
+div.center {
+    position: absolute;
+    left: 40%;
+    top: 50%;
+}
+
+div.firstline,
+div.secondline {
+    display: inline-block;
+}
+
+div.firstline img,
+div.secondline img {
+    width: 350px;
+    padding: 6px;
+    margin-left: 6%;
+}
+
+div#projects .firstline,
+.secondline {
+    position: relative;
+}
+
+div.firstline .projtitle,
+div.secondline .projtitle {
+    position: absolute;
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: large;
+    padding: 12px;
+    margin: 2% 8%;
+    transition: left top background-color font-weight 2s;
+}
+
+div.firstline div.projtitle:hover {
+    top: 35%;
+    left: 30%;
+    font-weight: bold;
+    background-color: cornflowerblue;
+}
+
+div.secondline div.projtitle:hover {
+    top: 35%;
+    left: 30%;
+    font-weight: bold;
+    background-color: cornflowerblue;
+}
+
+div#about table {
+    margin-left: 2%;
+    width: 80%;
+}
+
+table td {
+    padding: 8px;
+}
+
+td img {
+    width: 350px;
+    filter: grayscale(70%);
+    transition: filter 2s;
+}
+
+td img:hover {
+    width: 350px;
+    filter: grayscale(0%);
+}
+
+.tablecontact {
+    padding: 10px;
+    background-color: rgba(128, 128, 128, 0.127);
+    text-align: center;
+}
+
+.tablecontact:hover {
+    background-color: rgba(128, 128, 128, 0.606);
+}
+
+.container {
+    position: relative;
+}
+
+.container img {
+    width: 80%;
+    display:block;
+    margin-left: 10%;
+}
+
+.container .content {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    font-family:Georgia;
+    width: 78.5%;
+    padding: 10px;
+    margin-left: 10%;
+}
+
+input[type=text] {
+    width: 94%;
+    margin: 6px 6px 6px 3%;
+    padding: 12px;
+}
+
+input[type=email] {
+    width: 94%;
+    margin: 6px 6px 6px 3%;
+    padding: 12px;
+}
+
+input[type=submit] {
+    margin: 20px 10px 10px 3%;
+    padding: 10px;
+    font-size: large;
+    background-color: black;
+    color: white;
+}
+
+input[type=submit]:hover {
+    background-color: green;
+}
+
+#footer {
+    background: #000;
+    padding: 30px 0px;
+    font-family: 'Play', sans-serif;
+    text-align: center;
+}
+
+#footer .row {
+    width: 100%;
+    margin: 1% 0%;
+    padding: 0.6% 0%;
+    color: gray;
+    font-size: 0.8em;
+}
+
+#footer .row img {
+    width: 30px;
+    margin: 3px;
+}
+
+#footer .row a {
+    text-decoration: none;
+    color: gray;
+    transition: 0.5s;
+}
+
+#footer .row a:hover {
+    color: #fff;
+}
+
+#footer .row ul {
+    width: 100%;
+}
+
+#footer .row ul li {
+    display: inline-block;
+    margin: 0px 30px;
+}
+
+#footer .row a i {
+    font-size: 2em;
+    margin: 0% 1%;
+}

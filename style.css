@@ -33,7 +33,7 @@ li a {
     color: black;
     list-style-type: none;
     text-decoration: none;
-    padding: 10px 25px;
+    padding: 10px 20px;
     text-align: center;
     font-size: large;
 }
@@ -80,7 +80,7 @@ div.secondline .projtitle {
     text-align: center;
     font-size: large;
     padding: 12px;
-    margin: 2% 8%;
+    margin: 1.5% 7.5%;
     transition: left top background-color font-weight 2s;
 }
 

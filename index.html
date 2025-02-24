@@ -7,6 +7,26 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="Resources/architect.jpg">
     <title>BR Architects</title>
+    <style>
+        button {
+            background-color: cornflowerblue;
+            border-radius: 45%;
+            border: none;
+            padding: 4px;
+            width: 37px;
+            height: 37px;
+            font-size: 20px;
+        }
+        button:hover {
+            background-color: #2f385a;
+            font-weight: bold;
+        }
+        .darkmood {
+            background-color: #1e2332;
+            color:cornsilk;
+            
+        }
+    </style>
 </head>
 
 <body>
@@ -16,6 +36,7 @@
             <li style="padding-left: 65%;"><a href="#projects">Projects</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#contact">Contact</a></li>
+            <li><button id="btn" onclick="execute()">🌙</button></li>
         </ul>
     </div>
     <div id="title">
@@ -156,6 +177,7 @@
         <div class="row">
             Copyrights &copy; are reserved to ITI || Designed By: Marly
         </div>
+        <script src="./main.js"></script>
     </div>
 </body>
 
